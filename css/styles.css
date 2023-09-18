@@ -17,6 +17,11 @@
   display: inline-block;
 }
 
+.nav-item a:hover {
+  background-color: #9beeda;
+  color: #000000; /* Optional: You can set the text color when hovering */
+}
+
 #navBar a.active {
   background-color: #11999e;
 }
