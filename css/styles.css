@@ -17,11 +17,6 @@
   display: inline-block;
 }
 
-.nav-item a:hover {
-  background-color: #9beeda;
-  color: #000000; /* Optional: You can set the text color when hovering */
-}
-
 #navBar a.active {
   background-color: #11999e;
 }
@@ -88,6 +83,11 @@ a {
 
 a:hover {
   color: #eaf6f6;
+}
+
+.nav-item a:hover {
+  background-color: #9beeda;
+  color: #000000; /* Optional: You can set the text color when hovering */
 }
 
 .top-container {
@@ -222,4 +222,62 @@ a:hover {
 
 .project-entry ul {
   margin-left: 20px;
+}
+
+.e-commerce {
+  width: 70%;
+  float: top;
+  margin-left: 30px;
+}
+
+.checkout {
+  width: 80%;
+  float: top;
+  margin-left: 30px;
+}
+
+.e-commerce {
+  transition: 0.3s;
+}
+
+.image-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+}
+
+.view-more-text {
+  font-size: 24px;
+}
+
+.game {
+  width: 50%;
+  float: top;
+  margin-left: 30px;
+}
+
+/* Add this code */
+.hover-overlay {
+  display: none;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.project-entry:hover .hover-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
