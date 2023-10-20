@@ -9,7 +9,7 @@ Author: Zhiqian Zhang
 Project Objective:
 This project aims to develop a personal portfolio website for Zhiqian Zhang using HTML, CSS, and JavaScript. The website consists of two main pages: the Home page and the Projects page. The Home page features a navigation panel that directs visitors to various sections including Profile, Skills, Experience, Projects, and Contact, serving as an interactive digital resume. The target audience for this website includes recruiters, new acquaintances, and peer developers who are interested in knowing more about Zhiqian's professional and academic background.
 
-## [Design document](Design-document.pdf)
+## [Design document](https://drive.google.com/file/d/1W8q-JhrrhbfbRcrOcQtrSbq-DShIuysJ/view)
 
 ## Screenshot:
 
